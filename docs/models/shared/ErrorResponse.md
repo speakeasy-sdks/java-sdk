@@ -1,0 +1,12 @@
+# ErrorResponse
+
+Any bad or invalid request will lead to following error object
+
+
+## Fields
+
+| Field                                                                                                         | Type                                                                                                          | Required                                                                                                      | Description                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `code`                                                                                                        | *String*                                                                                                      | :heavy_minus_sign:                                                                                            | N/A                                                                                                           |
+| `message`                                                                                                     | *String*                                                                                                      | :heavy_minus_sign:                                                                                            | N/A                                                                                                           |
+| `type`                                                                                                        | [ErrorResponseType](../../models/shared/ErrorResponseType.md)                                                 | :heavy_minus_sign:                                                                                            | One of ["invalid_request_error", "authentication_error", "rate_limit_error", "validation_error", "api_error"] |
