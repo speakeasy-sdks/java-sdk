@@ -6,7 +6,7 @@
 ### Gradle
 
 ```groovy
-implementation 'Cashfree.PG:PG:1.5.0'
+implementation 'Cashfree.PG:PG:1.6.0'
 ```
 <!-- End SDK Installation -->
 
